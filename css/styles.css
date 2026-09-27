@@ -1,6 +1,12 @@
 html, body {
-     background-color: #cfbea5;
+     background-color: #fff6ef;
+     color: #4b352a;
      margin:0; 
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+
 }
 
 .hero{
