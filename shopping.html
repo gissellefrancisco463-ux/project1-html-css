@@ -12,12 +12,54 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="recipes.html" aria-current="page">Recipes</a></li>
+                    <li><a href="recipes.html" >Recipes</a></li>
                     <li><a href="planner.html">Meal Planner</a></li>
-                    <li><a href="shopping.html">Shopping List</a></li>
+                    <li><a href="shopping.html" aria-current="page">Shopping List</a></li>
                 </ul>
             </nav>
         </header>
+        <main>
+            <section class="weekly-meals">
+                <h2>Your shopping list</h2>
+                <p>Check off ingredients as you shop.</p>
+                <!--Mark is in the shopping introduction to highlight a reminder to users to check for exisiting ingredients-->
+                <p><mark>Before you shop:</mark> Check what you already have. </p>
+
+                <form action="shopping.html" method="get">
+                    <label for="shppping-item">Item to buy</label>
+
+                    <input 
+                        type="text"
+                        id="shopping-item"
+                        name="item"
+                        placeholder="Example: Apples"
+                        required maxlength="40"
+                    >
+                    <!--No functionality for submit button-->
+                    <button type="submit"> Submit item</button>
+                </form>
+
+                <!--Draggable is on the shopping list item below-->
+                <ul class="shopping-item">
+                    <li draggable="true"><label><input type="checkbox"></label>Yogurt</li>
+                    <li draggable="true"><label><input type="checkbox"></label>Granola</li>
+                    <li draggable="true"><label><input type="checkbox"></label>Bread</li>
+                    <li draggable="true"><label><input type="checkbox"></label>Lettuce</li>
+                    <li draggable="true"><label><input type="checkbox"></label>Tomatoes</li>
+                    <li draggable="true"><label><input type="checkbox"></label>Salmon</li>
+                    <li draggable="true"><label><input type="checkbox"></label>Carrots</li>
+                    <li draggable="true"><label><input type="checkbox"></label>Broccoli</li>
+                </ul>
+
+
+        <footer>
+            <p>For more information, contact us at: </p>
+            <!--The address element tells the browser that the text provides contact information for the Yellow Mango Website.-->
+            <address>
+                <a href="mailto:hello@yellowmango.com">hello@yellowmango.com</a><br/>
+                <a href="cel: 111-222-3333">+ (111)-222-3333</a>
+            </address>
+        </footer>
     </body>
 </html>
 
