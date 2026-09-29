@@ -213,3 +213,22 @@ form button {
      max-width: 400px;
      height: 20px;
 }
+
+.meal-preview h4 {
+     margin: 20px 0 8px;
+}
+
+.meal-preview ul, .meal-preview ol {
+     padding-left: 20px;
+}
+
+.meal-preview li li{
+     margin-bottom: 6px;
+}
+
+.meal-preview > li{
+     padding:24px;
+     border-radius: 16px;
+     background-color: white;
+     box-shadow: 0 4px 12px rgba(75,53,42,9.1);
+}
