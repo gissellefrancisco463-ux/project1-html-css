@@ -62,10 +62,6 @@ nav a:hover{
      max-width: 600px;  
 }
 
-.hero h2{ 
-     margin: 0 0 16px;
-}
-
 .hero h2 {
      margin: 0 0 16px;
 }
@@ -84,6 +80,16 @@ nav a:hover{
      font-weight: bold;
      text-decoration: none;
 }
+
+.meal-preview p{
+     margin: 8px 0;
+}
+
+.hero{
+     gap: 40px;
+}
+
+/* meal content*/
 
 .weekly-meals {
      padding: 60px 6%;
@@ -136,4 +142,45 @@ footer {
 
 footer a {
      color: white;
+}
+
+.shopping-items {
+     max-width: 600px;
+     list-style: none;
+     padding: 0%;
+}
+
+.shopping-items li{
+     margin-bottom: 10px;
+     padding: 14px 20px;
+     background-color: white;
+     border-radius: 10px;
+}
+
+.shopping-items label{
+     display: flex;
+     align-items: center;
+     gap: 12px;
+     cursor: pointer;
+}
+
+.shopping-items input{
+     accent-color: #9b4826;
+}
+
+#shopping-item {
+     padding: 10px;
+     border: 1px solid #9b4826;
+     border-radius: 8px;
+     font: inherit;
+}
+
+form button {
+     padding: 10px 16px;
+     border: none;
+     border-radius: 8px;
+     background-color: #4b352a;
+     color: white;
+     font: inherit;
+     cursor: pointer;
 }
