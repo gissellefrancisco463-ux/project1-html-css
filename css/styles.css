@@ -128,6 +128,19 @@ nav a:hover{
 
 }
 
+.weekly-meals form{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     gap: 12px;
+     max-width: 600px;
+}
+
+.weekly-meals form > label{
+     width: 100%;
+     font-weight: bold;
+}
+
 footer {
      padding: 32px 6%;
      background-color: #775848;
@@ -139,15 +152,17 @@ footer a {
      color: white;
 }
 
+/* Shopping list*/
 .shopping-items {
      max-width: 600px;
      list-style: none;
+     margin-top: 28px;
      padding: 0%;
 }
 
 .shopping-items li{
-     margin-bottom: 10px;
-     padding: 14px 20px;
+     margin-bottom: 12px;
+     padding: 16px 20px;
      background-color: white;
      border-radius: 10px;
 }
@@ -161,12 +176,14 @@ footer a {
 
 .shopping-items input{
      accent-color: #9b4826;
+     width: 18px;
+     height: 18px;
 }
 
-#shopping-items {
-     padding: 10px;
+#shopping-item{
+     padding: 12px;
      border: 1px solid #9b4826;
-     border-radius: 8px;
+     border-radius: 12px;
      font: inherit;
 }
 
