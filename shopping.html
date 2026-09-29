@@ -28,11 +28,14 @@
                 <form action="shopping.html" method="get">
                     <label for="shopping-item">Items to buy</label>
 
+
+                    <!--Required and Maxlength are HTML attributes located on the "Item to buy" input in the shopping form. I use required to prevent empty submissions and maxlength="40" to limit item names to 40 characters.-->
                     <input 
                         type="text"
                         id="shopping-item"
                         name="item"
                         placeholder="Example: Apples"
+                        
                         required maxlength="40"
                     >
                     <!--No functionality for submit button-->
