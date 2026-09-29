@@ -6,7 +6,19 @@ html, body {
 }
 
 header {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     list-style-type: none;
+     align-items: center;
+     gap: 24px;
+     padding: 20px 6%;
+     background-color: #ffffe7;
+}
 
+header h1 {
+     margin: 0;
+     font-size: 1.7rem;
 }
 
 .hero{
