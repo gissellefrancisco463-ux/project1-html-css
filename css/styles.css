@@ -119,7 +119,7 @@ nav a:hover{
 }
 
 .meal-preview p{
-     margin: 0;
+     margin:8px 0;
 }
 
 .weekly-meals > a {
@@ -195,4 +195,21 @@ form button {
      color: white;
      font: inherit;
      cursor: pointer;
+}
+
+.planner-progress {
+     margin-bottom: 28px;
+
+}
+
+.planner-progress label{
+     display: block;
+     margin-bottom: 8px;
+     font-weight: bold;
+}
+
+.planner-progress progress{
+     width: 100%;
+     max-width: 400px;
+     height: 20px;
 }
